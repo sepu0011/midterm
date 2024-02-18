@@ -1,0 +1,14 @@
+
+/*I cant get my sans serif to be applied to the h1*/
+body, header, h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+/*can't change the background colour for some reason*/
+body, header, img {
+    background-color: black;
+}
+/* I have no clue as to why my css code changes are not reflected in the website, is the css not linked properly? No, I checked this before*/
+p {
+    color: red;
+}
