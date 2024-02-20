@@ -10,15 +10,16 @@ header, footer {
     background-color: #000;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 /*Select the appropriate tag for image*/
-.nominees_poster_image{
+img {
     width: 100%;
 }
 
 /* Target the logo in the header using an ID
 -- for some reason this line of code de-centers the title*/
-.logo {
+#logo {
     width: 100px;
     padding-top: 8px;
     display: inline-block;
@@ -42,12 +43,12 @@ h1 {
     border-bottom: 2px solid #ff3530;
 }
 /* Select figcaption, article category, sub-title, author, date and h2*/
-    /*what does it mean by article category? google fonts not installed properly?*/
-.figcaption,.sub_title,.Author_and_Date,h2 {
+
+.figcaption,.News,.sub_title,.author_and_date,h2 {
     font-family: Open Sans;
 }
 /* Select author and date*/
-.Author_and_Date {
+.author_and_date {
     font-size: .85rem;
     margin-bottom: 0;
 }
@@ -61,11 +62,10 @@ the italic transforms it into bold*/
     font-size: .75rem;
     text-align: center;
     color: #757575;
-    font-weight: normal;/*this isn't working*/
+    font-weight: normal;
     font-style: italic;
 }
-/* Target the list of nominees
-left alignment not working*/
+/* Target the list of nominees*/
 .list {
     list-style: none;
     padding-left: 0;
@@ -77,5 +77,5 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: #ff3530; /* can't get color to change*/
+    color: #ff3530; 
 }
